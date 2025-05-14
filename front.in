@@ -1,0 +1,28 @@
+ifsum=1;
+counter= 1;
+
+input(inputnum);
+
+if (ifsum != counter)
+{
+  counter = counter + 1;
+  ifsum = ifsum + inputnum;
+}
+
+outputaverage=ifsum/counter;
+output(outputaverage);
+
+read=1;
+write=2;
+while=3;
+for=4;
+input(otherval);
+
+if (read+write < for && for-otherval > read && otherval*read <= for/read || ifsum % write >= read)
+{
+        if (read != write) { output(read); }
+        if (write == otherval) { output(write); }
+        else { output(4); }
+}
+
+
